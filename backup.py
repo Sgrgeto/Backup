@@ -6,7 +6,7 @@ from multiprocessing import Pool
 def files(archivos):
    #OS WALK MODULE RETURN A TUPLE WITH DIRECTORIES, AND FILES, UNPACKED THEM JUST TO GET THE DIRETORY NAME
     directory, files, files_2 = archivos
-    return driectory
+    return directory
 
 def backup(file):
     source = file
